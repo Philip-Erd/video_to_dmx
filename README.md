@@ -31,7 +31,7 @@ The `FixtureHandler` helps to group multiple fixtures together and update them a
 
 ### Position the fixtures
 
-The position you can set on the fixtures is *not* the physical position. It is the position on the provided video/image/texture that the fixture will read the color from. The position in each axis is given as a float in the range from 0 to approaching 1. The position will wrap around, so e.g. 0, 1 and 2 will be the same position. The position is relative to the size of the video. The left side is always 0 and near 1 is to the right. The bottom side is 0 and near 1 is the top. This is true regardless of the aspect ratio of the video.
+The position you can set on the fixtures is **not** the physical position. It is the position on the provided video/image/texture that the fixture will read the color from. The position in each axis is given as a float in the range from 0 to approaching 1. The position will wrap around, so e.g. 0, 1 and 2 will be the same position. The position is relative to the size of the video. The left side is always 0 and near 1 is to the right. The bottom side is 0 and near 1 is the top. This is true regardless of the aspect ratio of the video.
 
 ### video compression
 
