@@ -10,7 +10,7 @@ dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=16)
 
 fixture_handler = FixtureHandler(dmx=dmx)
 
-fixture_handler.addFixture(GenericRGBW(1, 0.5, 0.5))
+fixture_handler.addFixture(GenericRGBW(1, 0.5, 0.5, deadzone=5))
 fixture_handler.addFixture(GenericRGBW(5, 0.0, 0.5))
 fixture_handler.addFixture(GenericRGBW(9, 0.5, 0.0))
 fixture_handler.addFixture(GenericRGBW(13, 0.0, 0.0))
