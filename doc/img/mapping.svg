@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="223.25616mm"
+   height="213.55153mm"
+   viewBox="0 0 116.94371 57.522297"
    version="1.1"
    id="svg1"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
@@ -23,13 +23,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.4556538"
-     inkscape:cx="321.16154"
-     inkscape:cy="328.71828"
-     inkscape:window-width="1680"
-     inkscape:window-height="1013"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:zoom="0.51465134"
+     inkscape:cx="310.89009"
+     inkscape:cy="480.9081"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="145"
      inkscape:window-maximized="1"
      inkscape:current-layer="g4" />
   <defs
@@ -57,102 +57,110 @@
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
-    <rect
-       style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round"
-       id="rect1"
-       width="89.063644"
-       height="89.063644"
-       x="32.18932"
-       y="25.057396" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);marker-end:url(#Triangle)"
-       d="M 20.556518,18.877469 V 123.5727 H 130.88638"
-       id="path1" />
-    <text
-       xml:space="preserve"
-       style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
-       x="23.828243"
-       y="129.02557"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="stroke-width:0.264583"
-         x="23.828243"
-         y="129.02557">position_x</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
-       x="-111.99133"
-       y="17.661491"
-       id="text2"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan2"
-         style="stroke-width:0.264583"
-         x="-111.99133"
-         y="17.661491">position_y</tspan></text>
+     id="layer1"
+     transform="translate(-1.6186019,-11.15534)">
     <g
        id="g4"
        transform="matrix(0.64914923,0,0,0.64914923,29.668772,65.76283)">
-      <text
-         xml:space="preserve"
-         style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="69.221725"
-         y="63.980415"
-         id="text3"><tspan
-           sodipodi:role="line"
-           id="tspan3"
-           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="69.221725"
-           y="63.980415">center of action</tspan><tspan
-           sodipodi:role="line"
-           style="text-align:center;text-anchor:middle;stroke-width:0.264583"
-           x="69.221725"
-           y="68.831116"
-           id="tspan4">DJ/Band/Stage</tspan></text>
-      <ellipse
-         style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-dasharray:none"
-         id="path4"
-         cx="68.888"
-         cy="65.434517"
-         rx="18.903305"
-         ry="9.4516525" />
-      <text
-         xml:space="preserve"
-         style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
-         x="53.696331"
-         y="-56.505993"
-         id="text5"><tspan
-           sodipodi:role="line"
-           id="tspan5"
-           style="stroke-width:0.407585"
-           x="53.696331"
-           y="-56.505993">back wall</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
-         x="-7.5808573"
-         y="10.064751"
-         id="text6"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan6"
-           style="stroke-width:0.407585"
-           x="-7.5808573"
-           y="10.064751">left wall</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
-         x="-12.841509"
-         y="137.26494"
-         id="text7"
-         transform="rotate(-90)"><tspan
-           sodipodi:role="line"
-           id="tspan7"
-           style="stroke-width:0.407585"
-           x="-12.841509"
-           y="137.26494">right wall</tspan></text>
+      <g
+         id="g1"
+         transform="translate(4.5255021,17.460896)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:round"
+           id="rect1"
+           width="89.063644"
+           height="89.063644"
+           x="15.986487"
+           y="-20.227442"
+           transform="matrix(1.5404778,0,0,1.5404778,-45.704086,-101.30618)" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Triangle);marker-end:url(#Triangle)"
+           d="M 4.3536862,-26.407369 V 78.287862 H 114.68355"
+           id="path1"
+           transform="matrix(1.5404778,0,0,1.5404778,-45.704086,-101.30618)" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+           x="7.6254115"
+           y="83.740738"
+           id="text1"
+           transform="matrix(1.5404778,0,0,1.5404778,-45.704086,-101.30618)"><tspan
+             sodipodi:role="line"
+             id="tspan1"
+             style="stroke-width:0.264583"
+             x="7.6254115"
+             y="83.740738">position_x</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583"
+           x="-66.706497"
+           y="1.4586595"
+           id="text2"
+           transform="matrix(0,-1.5404778,1.5404778,0,-45.704086,-101.30618)"><tspan
+             sodipodi:role="line"
+             id="tspan2"
+             style="stroke-width:0.264583"
+             x="-66.706497"
+             y="1.4586595">position_y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;text-anchor:middle;stroke-width:0.264583"
+           x="44.261623"
+           y="-5.7798734"
+           id="text3"><tspan
+             sodipodi:role="line"
+             id="tspan3"
+             style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="44.261623"
+             y="-5.7798734">center of action</tspan><tspan
+             sodipodi:role="line"
+             style="text-align:center;text-anchor:middle;stroke-width:0.264583"
+             x="44.261623"
+             y="-0.92917347"
+             id="tspan4">DJ/Band/Stage</tspan></text>
+        <ellipse
+           style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;stroke-dasharray:none"
+           id="path4"
+           cx="43.927898"
+           cy="-4.3257718"
+           rx="18.903305"
+           ry="9.4516525" />
+        <text
+           xml:space="preserve"
+           style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
+           x="28.736227"
+           y="-126.26628"
+           id="text5"><tspan
+             sodipodi:role="line"
+             id="tspan5"
+             style="stroke-width:0.407585"
+             x="28.736227"
+             y="-126.26628">back wall</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
+           x="62.179432"
+           y="-14.895352"
+           id="text6"
+           transform="rotate(-90)"><tspan
+             sodipodi:role="line"
+             id="tspan6"
+             style="stroke-width:0.407585"
+             x="62.179432"
+             y="-14.895352">left wall</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:5.97792px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.407585"
+           x="56.918781"
+           y="112.30483"
+           id="text7"
+           transform="rotate(-90)"><tspan
+             sodipodi:role="line"
+             id="tspan7"
+             style="stroke-width:0.407585"
+             x="56.918781"
+             y="112.30483">right wall</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
