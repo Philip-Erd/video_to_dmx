@@ -4,10 +4,17 @@ Play a video back and write pixel data to DMX output.
 ## Motivation
 
 Controlling DMX lights with videos instead of using specific programs and their effects, has a couple of benefits. First of all it makes it really easy to share light shows with others and adapt them to your setup. It also makes it really easy to sync the lights to music, because the audio is already embedded in the video file. Light shows can be created with all kinds of video editing software and apps. You may even use real video footage and map your lights to it.
+Mapping the lights to a video only really works for simple colored lights. For more complex fixtures like moving heads it does nor work that well, because you can't map the pixel color to an axis postion directly. You may use an additional video containing directional data (similar to normal map) and map it the axis of moving heads to achieve control, but this is not part of this project. So this approach is best suited for matrix effects.
+
+I intend to use this to light rooms, so I imagine the video to be a top down view of the room. The center of action, where, for example, the DJ or band is, is at the bottom center. Then I create my effects and shows according to this layout. Then I map my fixtures to the x and y position. This does not give you the ability to make effects in the hight direction (floor to ceiling), but this isn't necessary for me, because I usually have the fixtures mounted at the ceiling pointing down.
+
+![example layout](doc/img/mapping.svg)
+
+You can, of course, come up with your own layouts, e.g. locking at the stage from the front or mapping it to the surface of a 3 dimensional object, like a building or sphere.
 
 ## About this project
 
-This project demonstrates how to playback a video and map specific pixelpositions to DMX lights. For video playback it uses pyglet. It provides a Srial DMX interface to use with generic USB to RS485 adapters. It also comes with fixture profiles for a generic RGB and a generic RGBW fixture. 
+This project demonstrates how to playback a video and map specific pixelpositions to DMX lights. For video playback it uses pyglet. It provides a Srial DMX interface to use with generic USB to RS485 adapters. It also comes with fixture profiles for a generic RGB and a generic RGBW fixture.
 
 ### dependencies
 
