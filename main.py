@@ -2,16 +2,17 @@ import pyglet
 
 
 from core import FixtureHandler
-from dmx_interfaces import SerialDmx
+from dmx_interfaces import SerialDmx, ArtnetDmx
 from fixtures import GenericRGBW
 
 
 dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=16)
+#dmx = ArtnetDmx(ip="127.0.0.1", number_of_channels=16)
 
 fixture_handler = FixtureHandler(dmx=dmx)
 
-fixture_handler.addFixture(GenericRGBW(1, 0.5, 0.5, deadzone=5))
-fixture_handler.addFixture(GenericRGBW(5, 0.1, 0.5))
+fixture_handler.addFixture(GenericRGBW(1, 0.5, 0.75, deadzone=5))
+fixture_handler.addFixture(GenericRGBW(5, 0.5, 0.25, deadzone=5))
 fixture_handler.addFixture(GenericRGBW(9, 0.5, 0.1))
 fixture_handler.addFixture(GenericRGBW(13, 0.1, 0.1))
 
@@ -21,7 +22,7 @@ fixture_handler.addFixture(GenericRGBW(13, 0.1, 0.1))
 window = pyglet.window.Window(resizable=True)
 player = pyglet.media.Player()
 
-source = pyglet.media.load("test_film/1.mp4")
+source = pyglet.media.load("test_film/3.mp4")
 player.queue(source)
 player.loop = True
 player.play()

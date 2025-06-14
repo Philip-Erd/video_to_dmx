@@ -18,7 +18,7 @@ This project demonstrates how to playback a video and map specific pixelposition
 
 ### dependencies
 
-This project only depends on `pyglet`, `serial`, `numpy` and  `time`.
+This project depends on `pyglet`. The Serial interface requires `pyserial`, `numpy` and  `time`. The Artnet interface requires `stupidartnet`.
 
 ### running the project
 
