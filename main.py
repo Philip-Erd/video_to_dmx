@@ -6,8 +6,8 @@ from dmx_interfaces import SerialDmx, ArtnetDmx
 from fixtures import GenericRGBW
 
 
-#dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=16)
-dmx = ArtnetDmx(number_of_channels=16)
+dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=16)
+#dmx = ArtnetDmx(ip="127.0.0.1", number_of_channels=16)
 
 fixture_handler = FixtureHandler(dmx=dmx)
 
