@@ -22,7 +22,7 @@ class ColorGrab:
         if self.data is None:
             return (0, 0, 0)
 
-        # zero point bottom left
+        # zero point top left
         pixel_x = round(self.width * position_x) % self.width
         pixel_y = (
             round(self.height * position_y) % self.height
