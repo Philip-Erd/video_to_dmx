@@ -37,7 +37,7 @@ class ColorGrab:
         g = g if g > deadzone else 0
         b = b if b > deadzone else 0
 
-        return (r, g, b)
+        return (int(r), int(g), int(b))
 
     def get_RGBW(self, position_x: float, position_y: float, deadzone: int = 0) -> tuple[int, int, int, int]:
         """Get the RGBW value of the pixel at the defined position. Color values below or equal to deadzone get clipped to 0."""
@@ -61,4 +61,4 @@ class ColorGrab:
             g = g - w3
             b = b - w3
 
-        return (r, g, b, w)
+        return (int(r), int(g), int(b), int(w))
