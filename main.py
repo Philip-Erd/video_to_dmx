@@ -1,13 +1,13 @@
 import pyglet
 
 
-from core import FixtureHandler
-from dmx_interfaces import SerialDmx, ArtnetDmx
-from fixtures import GenericRGBW
+from video_to_dmx.core import FixtureHandler
+from video_to_dmx.dmx_interfaces import SerialDmx, ArtnetDmx
+from video_to_dmx.fixtures import GenericRGBW, CameoSerum4Channel
 
 
-dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=16)
-#dmx = ArtnetDmx(ip="127.0.0.1", number_of_channels=16)
+dmx = SerialDmx(port="/dev/ttyUSB0", number_of_channels=512)
+# dmx = ArtnetDmx(ip="127.0.0.1", number_of_channels=16)
 
 fixture_handler = FixtureHandler(dmx=dmx)
 
@@ -15,6 +15,8 @@ fixture_handler.addFixture(GenericRGBW(1, 0.5, 0.75, deadzone=5))
 fixture_handler.addFixture(GenericRGBW(5, 0.5, 0.25, deadzone=5))
 fixture_handler.addFixture(GenericRGBW(9, 0.5, 0.1))
 fixture_handler.addFixture(GenericRGBW(13, 0.1, 0.1))
+
+fixture_handler.addFixture(CameoSerum4Channel(20, 0.5, 0.5, deadzone=5))
 
 
 # options.headless = True
