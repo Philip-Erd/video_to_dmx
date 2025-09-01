@@ -2,7 +2,7 @@ import serial
 import time
 import numpy as np
 
-from core import Dmx
+from video_to_dmx.core import Dmx
 
 
 class SerialDmx(Dmx):

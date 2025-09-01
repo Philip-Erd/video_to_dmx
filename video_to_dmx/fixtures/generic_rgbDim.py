@@ -1,5 +1,5 @@
 
-from core import Fixture, ColorGrab, Dmx
+from video_to_dmx.core import Fixture, ColorGrab, Dmx
 
 
 class GenericRGBDim(Fixture):

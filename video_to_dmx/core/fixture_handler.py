@@ -1,4 +1,4 @@
-from core import Fixture, Dmx, ColorGrab
+from video_to_dmx.core import Fixture, Dmx, ColorGrab
 from pyglet.image import AbstractImage
 
 

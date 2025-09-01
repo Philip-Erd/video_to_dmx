@@ -1,4 +1,4 @@
-from core import ColorGrab, Dmx
+from video_to_dmx.core import ColorGrab, Dmx
 
 
 class Fixture:

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='video_to_dmx',
-    version='0.1.1',
+    version='0.2.0',
     url='https://github.com/Philip-Erd/video_to_dmx',
     author='Philip Erdelhoff',
     author_email='philip.erdelhoff@gmail.com',
